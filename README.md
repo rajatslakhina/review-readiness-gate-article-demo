@@ -1,6 +1,6 @@
 # ReviewGate: a written "definition of reviewable" for iOS pull requests
 
-A small Swift library that decides whether a pull request is ready for a human, from the diff and the evidence attached to it. Companion code for the Medium article "A Checklist Passed 10 of 12 Pull Requests. Four Agent-Written PRs Weren't Reviewable." (link added after publish).
+A small Swift library that decides whether a pull request is ready for a human, from the diff and the evidence attached to it. Companion code for the Medium article "A Checklist Passed 10 of 12 Pull Requests. Four Agent-Written PRs Weren't Reviewable." ([read it on Medium](https://medium.com/@er.rajatlakhina/a-checklist-passed-10-of-12-pull-requests-four-agent-written-prs-werent-reviewable-75cd40e65a3f)).
 
 The point is one distinction: **evidence that is present** versus **evidence that is about this diff**. A checklist that only asks "is there a screenshot?" waves through a screenshot of the wrong screen.
 
@@ -53,4 +53,4 @@ swift test               # 14 tests
 - `Demo.xcodeproj/project.pbxproj` was hand-written and checked for brace/paren balance and dangling object ids. It has **not** been opened in Xcode.
 - **The app was not run on a Simulator, and there is no screenshot of it.** The run that produced this repo was unattended and had no approval to drive Xcode. The images in `Article/` are generated diagrams, not screenshots.
 
-Article: (added after publish)
+Article: https://medium.com/@er.rajatlakhina/a-checklist-passed-10-of-12-pull-requests-four-agent-written-prs-werent-reviewable-75cd40e65a3f
